@@ -1,0 +1,87 @@
+div {
+  .header {
+    width: 95%;
+    background: #ffa057;
+    margin: 0 auto;
+    color: #fcf6ef;
+    text-align: center;
+    user-select: none;
+
+    @media screen and (max-width: 850px) {
+      width: 85%;
+    }
+
+    h1 {
+      padding-top: 30px;
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 1.3rem;
+      padding-bottom: 30px;
+    }
+
+    .search {
+      padding-bottom: 30px;
+
+      input[type="search"] {
+        padding: 20px;
+        width: 40%;
+        background: #fcf6ef;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        transition: 0.3s ease;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+        &::-webkit-search-cancel-button {
+          -webkit-appearance: none;
+          appearance: none;
+        }
+
+        &::-moz-search-cancel-button {
+          display: none;
+        }
+
+        &:focus {
+          transform: scale(1.05);
+        }
+
+        @media screen and (max-width: 850px) {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  .recipes-container {
+    margin: 40px auto;
+    width: 95%;
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      width: 80%;
+    }
+
+    .burger {
+      position: absolute;
+      width: 15%;
+      height: 100%;
+      opacity: 0.5;
+
+      @media screen and (max-width: 850px) {
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+      }
+    }
+  }
+}

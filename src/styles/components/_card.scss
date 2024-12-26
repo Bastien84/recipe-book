@@ -1,0 +1,36 @@
+.card {
+  width: 30%;
+  background: #fffbf6;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin: 20px;
+
+  @media screen and (max-width: 850px) {
+    width: 90%;
+  }
+
+  h3 {
+    background: #ffa057;
+    color: #fcf6ef;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h4 {
+    background: #ffa057;
+    color: #fcf6ef;
+    padding-bottom: 10px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    user-select: none;
+  }
+
+  p {
+    margin: 20px;
+    text-align-last: left;
+  }
+}

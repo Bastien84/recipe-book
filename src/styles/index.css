@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat";
+  background: #fdeddf;
+  text-align: center;
+}
+
+.header {
+  width: 95%;
+  background: #ffa057;
+  margin: 30px auto;
+  color: #fcf6ef;
+}
+.header h1 {
+  padding-top: 30px;
+  font-size: 2rem;
+}
+.header h2 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+}
+
+.search {
+  padding-bottom: 30px;
+}
+.search input[type=search] {
+  padding: 20px;
+  width: 40%;
+  background: #fcf6ef;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.search input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.search input[type=search]::-moz-search-cancel-button {
+  display: none;
+}
+.search input[type=search]:focus {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.recipes-container {
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  width: 20%;
+  background: #fffbf6;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card h3 {
+  background: #ffa057;
+  color: #fcf6ef;
+  padding: 10px;
+}
+.card h4 {
+  background: #ffa057;
+  color: #fcf6ef;
+  padding-bottom: 10px;
+  font-weight: 300;
+}/*# sourceMappingURL=index.css.map */
